@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aztlan.aztlan_iot.TelaDeCadastro"
+    >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/TelaDeCadastroToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:layout_marginTop="18dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_router2" />
+
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+
+            android:id="@+id/Cadastro_campo_nome_Wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputtext"
+            android:ems="10"
+            android:hint="Nome do Wifi"
+            android:textColorHint="@color/colorAccent"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/ic_search"
+            android:onClick="abrePesuisaWifi"
+            />
+
+    </LinearLayout>
+
+
+    <EditText
+
+
+        android:layout_gravity="center"
+        android:id="@+id/Cadastro_campo_senha_Wifi"
+        android:hint="Senha"
+        android:textColorHint="@color/colorAccent"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:background="@drawable/inputtext"
+        />
+
+    <EditText
+
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:id="@+id/Cadastro_campo_nome_dispositivo"
+        android:hint="Nome do dispositivo"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colorAccent"
+        android:padding="8dp"
+        android:background="@drawable/inputtext"
+        />
+
+
+    <EditText
+
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:id="@+id/Cadastro_campo_nome_ambiente"
+        android:hint="Ambiente do dispositivo"
+        android:textColorHint="@color/colorAccent"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:background="@drawable/inputtext"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+
+        android:id="@+id/Cadastro_btn_adicionar_dispositivo"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Dispositivo "
+        android:padding="12dp"
+        android:textColor="@color/coloBackground"
+        android:background="@drawable/bordas_arredondadas"
+        android:backgroundTint="@color/colorAccent"/>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aztlan.aztlan_iot.TelaDeResgate">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/TelaDeResgateToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:titleTextColor="@color/white"
+        app:subtitleTextColor="@color/white">
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <TextView
+
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Digite o nome do dispositivo" />
+
+
+    <EditText
+
+        android:layout_margin="12dp"
+        android:id="@+id/TelaDeResgate_dispositivo_digitado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome do dispositvo"
+        android:padding="8dp"
+        android:background="@drawable/inputtext"
+        android:textColorHint="@color/colorAccent"/>
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:paddingTop="20dp"
+        android:text="Digite o nome do ambiente"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:layout_margin="12dp"
+        android:id="@+id/TelaDeResgate_ambiente_digitado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ambiente o dispositvo"
+
+        android:background="@drawable/inputtext"
+        android:textColorHint="@color/colorAccent"
+        android:padding="8dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/TelaDeResgate_btn_resgate"
+        android:layout_margin="18dp"
+        android:layout_gravity="center"
+        android:text="Resgatar"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/coloBackground"
+        android:background="@drawable/bordas_arredondadas"
+        android:backgroundTint="@color/colorAccent"/>
+
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+
+        android:text="Atenção:" />
+
+
+    <TextView
+        android:padding="4dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:text="O nome digitado deve ser igual a algum nome já cadastrado no servidor." />
+
+
+
+
+
+
+
+</LinearLayout>
