@@ -17,7 +17,7 @@ Nesta tela o usuário deve passar as informações necessárias para que o dispo
 
 
 # Dados do dispositivo
-Nesta tela são mostrados os dados recebido do dispositvo.
+Nesta tela são mostrados os dados recebidos do dispositvo.
 
 ![screenshot_2018-01-11-08-17-54](https://user-images.githubusercontent.com/38132109/38768813-8d94c434-3fcf-11e8-9170-a264ac985cf2.png)
 
